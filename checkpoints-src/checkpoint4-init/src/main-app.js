@@ -1,11 +1,11 @@
-var React = require('react-native');
+import React from 'react';
 
-var{
+import {
   StyleSheet,
   Navigator,
   View,
   Text
-} = React;
+} from 'react-native';
 
 var Home = require('./home/home');
 var Dashboard = require('./dashboard/dashboard');

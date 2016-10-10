@@ -1,9 +1,9 @@
-var React = require('react-native');
+import React from 'react';
 
-var {
+import {
   View,
   ActivityIndicatorIOS
-} = React;
+} from 'react-native';
 
 module.exports = React.createClass({
 

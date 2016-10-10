@@ -1,17 +1,17 @@
 'use strict';
 
-const React = require('react-native');
+import React from 'react';
 
 const RngameActivityIndicator = require('../rngame-activity-indicator/rngame-activity-indicator');
 
 const firebaseApi = require('../.././services/firebase-api');
 
-const {
+import {
   StyleSheet,
   Text,
   View,
   Image
-} = React;
+} from 'react-native';
 
 
 module.exports = React.createClass({

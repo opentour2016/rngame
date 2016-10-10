@@ -1,8 +1,8 @@
 'use strict';
 
-var React = require('react-native');
+import React from 'react';
 
-var {
+import {
   AppRegistry,
   StyleSheet,
   Text,
@@ -10,7 +10,7 @@ var {
   Image,
   Dimensions,
   TouchableHighlight
-} = React;
+} from 'react-native';
 
 
 var GameCard = React.createClass({

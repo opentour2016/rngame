@@ -1,5 +1,5 @@
 
-let React = require('react-native');
+import React from 'react';
 
 
 // Associar checkpoint atual aqui para facilitar desenvolvimento! Have fun!
@@ -8,10 +8,10 @@ let React = require('react-native');
 let CHECKPOINT_ATUAL_NAME = 'CheckPoint4Final';
 
 
-let {
+import {
   View,
   Navigator
-} = React;
+} from 'react-native';
 
 let CheckPointIntro = require('./checkpoint-intro/src/home/home');
 let CheckPoint1Init= require('./checkpoint1-init/src/home/home');

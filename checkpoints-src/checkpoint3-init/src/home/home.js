@@ -1,18 +1,18 @@
 /*
  * Import do React Native
  */
-let React = require('react-native');
+import React from 'react';
 
 /*
  * Import dos componentes do React que vamos utilizar no nosso componente
  */
-let {
+import {
   View,
   Text,
   TouchableHighlight,
   StyleSheet,
   Dimensions
-} = React;
+} from 'react-native';
 
 let HomeHeader = require('.././components/header/homeHeader');
 let LogoContainer = require('.././components/logo/homeLogo');

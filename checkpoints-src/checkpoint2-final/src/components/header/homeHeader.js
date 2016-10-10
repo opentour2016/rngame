@@ -1,12 +1,12 @@
-let React = require('react-native');
+import React from 'react';
 
 
-let {
+import {
   View,
   Text,
   TouchableHighlight,
   StyleSheet
-} = React;
+} from 'react-native';
 
 
 let HomeHeader = React.createClass({

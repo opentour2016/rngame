@@ -2,20 +2,20 @@
  * Sample React Native App
  * https://github.com/facebook/react-native
  */
-var React = require('react-native');
+import React from 'react';
 
-let {
+import {
   AppRegistry,
   Component,
   StyleSheet,
   View,
   Navigator
-} = React;
+} from 'react-native';
 
 //Import do Home
 let RnGameApp = require('./checkpoints-src/rnGameApp');
 
-class RNGameFramework extends Component {
+const RNGameFramework = React.createClass({
   render() {
     return (
       <View style={styles.container}>
@@ -23,7 +23,7 @@ class RNGameFramework extends Component {
       </View>
     );
   }
-}
+});
 
 const styles = StyleSheet.create({
   container: {

@@ -1,11 +1,11 @@
-let React = require('react-native');
+import React from 'react';
 
-let {
+import {
   View,
   Text,
   Dimensions,
   StyleSheet
-} = React;
+} from 'react-native';
 
 //TODO #2 - Fazer require do componente react-native-swiper
 //let Swiper = require('react-native-swiper');

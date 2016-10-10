@@ -1,13 +1,13 @@
-let React = require('react-native');
+import React from 'react';
 
 
 
-let {
+import {
   View,
   Text,
   Dimensions,
   StyleSheet
-} = React;
+} from 'react-native';
 
 let Swiper = require('react-native-swiper');
 let windowSize = Dimensions.get('window');

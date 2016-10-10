@@ -1,12 +1,12 @@
-let React = require('react-native');
+import React from 'react';
 
 
-let {
+import {
   View,
   Text,
   ScrollView,
   StyleSheet
-} = React;
+} from 'react-native';
 
 
 let MessageArea = React.createClass({
