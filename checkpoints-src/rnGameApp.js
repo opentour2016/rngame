@@ -5,7 +5,7 @@ let React = require('react-native');
 // Associar checkpoint atual aqui para facilitar desenvolvimento! Have fun!
 // Intro page: 'CheckPointIntro'
 
-let CHECKPOINT_ATUAL_NAME = 'CheckPoint4Final';
+let CHECKPOINT_ATUAL_NAME = 'CheckPointIntro';
 
 
 let {
